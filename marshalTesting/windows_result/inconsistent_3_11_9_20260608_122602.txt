@@ -1,0 +1,126 @@
+================================================================================
+Marshal 往返哈希值兼容性测试 - 不一致结果报告
+================================================================================
+
+测试时间: 2026-06-08 12:26:02
+当前 Python 版本: 3.11.9
+基准 Python 版本: 3.13.13
+不一致用例总数: 23
+
+================================================================================
+
+[1] 测试用例: Fuzz_8
+    基准哈希 (Python 3.13): 3f9403ecc8fc3c2eb64a12c6004f464294fcc7013b1c5e163430630c95b96b7e
+    当前哈希 (3.11.9): 479e67f574d608b129cc289313279c25d6bb46e4253703a1b4b97c4d717780a3
+    对象: {False, nan, (-27.033564205983154-25.96380657662347j), b'$W}S\xec\xc2\x8ap\xa6\x1cu\x10\xa1\xcd\x89!l\xa1l\xff'}
+
+[2] 测试用例: Fuzz_12
+    基准哈希 (Python 3.13): 29ff5ad9fe7e2f84a650645f172b87c2b15e087272c0501fd035e22d10e57c28
+    当前哈希 (3.11.9): e5750705af5ff3558318b329c859c55af4846b2086ae879e381a7558b447f743
+    对象: [True, frozenset({None, False, '>46T'})]
+
+[3] 测试用例: Fuzz_15
+    基准哈希 (Python 3.13): 9615893a6914208efb30b5a96806bbda66e5049fb4c483527aadd5a00e162324
+    当前哈希 (3.11.9): 4509c80e823a7d84363b234c08f2eb063babe9db967d6d77ba446c644f30a027
+    对象: ({'$-lWL}HW', (7.243146495744384+87.84742806494313j), None, -625517, '.Qi8@%zW bdw|~~u'}, 897748.9719426285)
+
+[4] 测试用例: Fuzz_23
+    基准哈希 (Python 3.13): 7030e9919631b917c109e70b97e5fb550391432880cdcef6e43c41f56a6b9de6
+    当前哈希 (3.11.9): a1964d57edf2a09fe11d0d2f99c9d8f2afb24993217dd8903e5d92b338133d6b
+    对象: ({-inf, b'&|4\x9a=\x15', 117247}, b'\x06\xd7\xfa6\xdd\xb9\xebN\xdeZ', (frozenset({(-50.90096618126183+86.92437572280002j), nan, (46.20524286102446-46.32089239015493j)}), inf, frozenset({'', (-51.93521
+
+[5] 测试用例: Fuzz_24
+    基准哈希 (Python 3.13): 297d5d7dcf0664202b25983b2d08bba442dd2edf26013e3533784a7a5f94a971
+    当前哈希 (3.11.9): 1cbfd5bfeb6116acc83508be816fdb19fdd9ce0649feb6c9d92660f132c1174f
+    对象: ({b'\xa1=^bn\xf7', 519564, 'VfJMyZBG@=/', 'lD,8E=N6F!zd0C%&'}, {'-!iD\\]XK': None, '].(S^': b'M', 'hF*': [(-16.76519571793432+19.225369082005045j), 'bPYXFkV', 192502, 'n'], ':p': b'Pz', 'f)4': nan}, F
+
+[6] 测试用例: Fuzz_27
+    基准哈希 (Python 3.13): 78a83e17fc0723b8329dd820cb609542a606133b8c5adb0edb07b4bf1e37a8cf
+    当前哈希 (3.11.9): ec0aa155271df9a15c12450a10816ea967a27e06ea0fe33cbe673d05dbbb1b7a
+    对象: {'iQ=T': b'\xc3\xc5M\xfd\x12@\xa93\xe13\xe9\x07I\xd1O', '\\A': {'Hp{^e$o(>pwD', True, 520739.3859885307, (-34.28688220330875+34.871499030801914j), None}, 'X5': [], "'EMOW2": inf, '6*n': frozenset({Fal
+
+[7] 测试用例: Fuzz_34
+    基准哈希 (Python 3.13): a3d1eabfad90467b7b120b17505c35d91c52a71c2e08ec40df69afd0f562f4f8
+    当前哈希 (3.11.9): f3d81ab6583373f6b7118a8143358219ad68f37bad8c7abe6d7f493ab6c86628
+    对象: ({309288, True, b'\x9a\xea\x0f\x1f\xf5\xcd\xda7\xfb\xe3%)\xa4K!@', b'\xa6\xc3\x96\xe8\xdc2:n\xdc\xe7t\xd3\xad\xe8\xcc\xd40\xa0'}, (set(), None), None, (frozenset({None, ';3t]<-LgO.Ci<Vgo', 'u/TMuV|&Dl
+
+[8] 测试用例: Fuzz_43
+    基准哈希 (Python 3.13): 74c3aa81acab965b89369f1e4bd816c04f8a00fe84cf2bf57e0904ae9332b3c7
+    当前哈希 (3.11.9): a83edcbd86293883f332407dd9cb7f0e163c7d2785c5e20a594be1339ed364bd
+    对象: ((b'c\xb2\xb3',), {'2@': 's)6p'}, frozenset({-inf, (94.19461284163205-36.772221101883964j), -62157.832947253366, b'\x8c\x1c\xb4%\x9e\xec\xe7\x13\x1d'}), (), [{b'!\xa80\xc5\x91\x81L\xaa)H', '6%?zXXcbn4
+
+[9] 测试用例: Fuzz_45
+    基准哈希 (Python 3.13): 368f96e8be34d39b019bcd255f0383668caa79167e51c1d8d3b08fca6b7bfce7
+    当前哈希 (3.11.9): 5b9e3eca5e85fe8489a0c256e29363f88fd6d23bf971b8ba9a50e803d1ba410a
+    对象: {(-25.75757867911348+86.85871079949993j), (-49.999357682198585+28.235807240889443j), 577878, b'wz\x9e\xf0c\xbc\xe1\xec\x90\xc3\xd6RfF'}
+
+[10] 测试用例: Fuzz_49
+    基准哈希 (Python 3.13): 9a491243b2d594041f60bc3c2211b0a092d0168642bf9156de1d5a311f10e395
+    当前哈希 (3.11.9): 30372fc2184cf36df74f92ab415394d664dba82c6ed787f2904fd198cc6fc919
+    对象: {'#U&R`O': None, '<#H,{s': {'D': {(-70.09607620715464+88.04518986826358j), 811714.9782065416, -547740, None, (-72.24146163636276+41.10723505781607j)}}, 'cV.D>F/&>U': frozenset({None, (81.0293771323997
+
+[11] 测试用例: Fuzz_52
+    基准哈希 (Python 3.13): 9d6f56ebd4382995382b0276cacb6a450b12205e38e8d481ebfd8c6baabcf367
+    当前哈希 (3.11.9): b3deea2582d6d965e418c0731a3d89ebf636f71d959ec3008224248d8e9ba07b
+    对象: {'y]p71({Z': True, '%HGa': frozenset({(56.168313395685004+73.15965541561152j), (29.380099760150046-42.77782088969027j), -923201}), 'B/OWSX': {False, b'\xbc\x88*\xd9(\xdc\\\x96\xa44(\xa7\x97\x9c\xe4'},
+
+[12] 测试用例: Fuzz_59
+    基准哈希 (Python 3.13): 821dc0caa74d4caf7d8b6209ad75d699562cafbc4c6e775dec529ada18336ddd
+    当前哈希 (3.11.9): 7fee9e64a5c0a70a9d5f877a187fb95cdda145b2ed79ac8833a68e4b9f1d1f31
+    对象: [frozenset({(-20.601085144340075-0.92322053564844j), b'Y', inf, None, b'\x13\x04\x986\xab\x91\xe8\xfcD'}), {True, -659225}, (b'\x97bY\xcf\xda\xa7,\xcd0^', {True, -195587}, (-46.60113460714397-34.07493
+
+[13] 测试用例: Fuzz_69
+    基准哈希 (Python 3.13): 06ea7b9fb58d69ee421c60274d14c2f031c371cbf046b0a6f20f3bfdc19ec78d
+    当前哈希 (3.11.9): 792fffaade34cc923bbcf62152b86a5b336b97dcd8be11fa73daa52aab348cee
+    对象: [(frozenset({"vI>F2tb<TFC'gk~6pvV", '&LruPcHyUT3FP7d'}),)]
+
+[14] 测试用例: Fuzz_70
+    基准哈希 (Python 3.13): 4160b3757df802a741c1b682bcf307dded4af1eeef9c3e59aeb7953dbec7b76f
+    当前哈希 (3.11.9): 083a33336bf038657b983359b2b9afcdce38639eda6b3ebdebf2c566ee036f51
+    对象: {"['g": {356240, -inf, None, 'Q?@:'}, 'd|': [frozenset({None, False, ';]:JF!;8~/]?ymz:R', (-85.44313432549941+60.93012357010903j)}), {None, 160378, 'MGANa_[,|\\H:OHT%h<~2'}]}
+
+[15] 测试用例: Fuzz_71
+    基准哈希 (Python 3.13): 3c48b0bc30eaee67210ca4513601940d8ecfb8abf495c46e65e7c45af4254a2f
+    当前哈希 (3.11.9): 4402354fd0ae0311ed4d5aa0376c9ff0d720ba33024c5ba79bfedc95660ab227
+    对象: frozenset({-517616, -inf, True, inf})
+
+[16] 测试用例: Fuzz_76
+    基准哈希 (Python 3.13): e911473b1dfed8dee43b1a84e245caf0324b6166d24e6cd0f5db7a3f813b211a
+    当前哈希 (3.11.9): 7ee47376f6d076a19bcae6ae0fd170e2bca400dfa209c18b0226403cab3c8ebe
+    对象: frozenset({'@MBR*OSZh?y<Fw*s', (29.978890358784554-93.66309926882312j), b'\x08\x03\xd2\x06\x08\x8c\x92\x08\xdc[61L{b'})
+
+[17] 测试用例: Fuzz_77
+    基准哈希 (Python 3.13): d8326c10b5de5f8f8a7cc98624770cf0106b6a0fc79b43aca4c9ee52f5bdee8f
+    当前哈希 (3.11.9): 0cc7d4ef8efa250e754167a7c7daa529d908829948639e690af06f17ca03c5c3
+    对象: {273496.1511112775, False, b'*\xff\xde\xa90', '='}
+
+[18] 测试用例: Fuzz_80
+    基准哈希 (Python 3.13): 6093155c85caf9450f9f9f93aa82aac61ebe0451877cc406d41d5d8aa0630e5f
+    当前哈希 (3.11.9): c98aad6586c780f82f87f055baf8e0e3ba11770e21d97c1df0818913b088bc67
+    对象: {'HN-+ GX': (), '+7W': frozenset({None, 'IQ!ETQ*|g?ib5wP51BF', 162283, -947476.1919734057}), '_2(5W': 15506, 'N@': {'JXJWsl1FImx9', -inf, 'Z-1F R', 764991}, 'RHE': {'ke7wf#', (57.17330633541215-26.996
+
+[19] 测试用例: Fuzz_84
+    基准哈希 (Python 3.13): 0c1c6eeae2ee6ba1f5457a8fed9a7585ab0c90d96cd0c954345fdf964dac23d4
+    当前哈希 (3.11.9): b960c1848fb4a42629c4fb366b1fdc094e21fd987c3117a9a7d4c2cd677aed66
+    对象: frozenset({-280538, '<YOR[vkx`3L#]-EU*.', (88.1352316292386-71.66496463369035j), inf})
+
+[20] 测试用例: Fuzz_85
+    基准哈希 (Python 3.13): b379a436cf641c28e8cab9009f8c5a3ac5a6c5939c832530fcf0dd2e3f6261f7
+    当前哈希 (3.11.9): b415c104593ade3c981453866646d3772096f99109c570de100af83651ff8d3f
+    对象: (b'\xa3"\x99\x16:\x0b\xaf7T|YQ\xa9\xda', {'7qt': ['YkVQ z', True, 577740, b'4_', -316361], 'Z.Au': frozenset({'LMZ', 251938, nan, None, 'vzFnk'}), 'H/>': {'aQU': 'iQV7', 'qdxr6g5^': -705777}}, (-9.799
+
+[21] 测试用例: Fuzz_86
+    基准哈希 (Python 3.13): 244d91beee47325a555087f8fbe7cf9cc713e2f8c0a53b6c0ef3d81f97a8de5c
+    当前哈希 (3.11.9): 75a973c5f2ec2ce5b04b5e6f3b8687fb9b0fe63b48f3de71ecbad16efa2db2ce
+    对象: [(-23.211164826409387+12.316415467020889j), {nan, b'\xfaU*\x0fp\x95\x10\x8cs\x93V\xea\xfd9', inf, '|', 'BeN'}, [{'Y': -268982, 'X/': (62.37778251908131-58.02436648204519j)}, ("V5n1::'hLdCld5IzEEiB", (
+
+[22] 测试用例: Fuzz_87
+    基准哈希 (Python 3.13): ea711cf78574756c064f5e941f2374d54083d7fac3c35b308c7fcdc3c25e314f
+    当前哈希 (3.11.9): ac8c53b385630ec5c3e7e870812571cd0b55127fdc934759441171a23fda1aed
+    对象: {b' \xcbo\xdbl\xfd\x89\xa5\x91\xacB', 'Kw&%,pZ"/4XZ V9', b'\x9aQ\x8c/', None, b'\x80*\xbeT\x1a\xca\x9cw\xdb.0'}
+
+[23] 测试用例: Fuzz_100
+    基准哈希 (Python 3.13): dee8e025d41fb63a4d364189553b50cd10bc28d2442de83c3075259f6c1bc9a2
+    当前哈希 (3.11.9): 4851ec17b0e7f2047641ab189e3fe7642eec5809a6461ec460087ea231ef6bbb
+    对象: [(), False, [[]], frozenset({b'\xea+0D\xc9&\x1f\xdeBy\x95', 942050, 784495}), ({}, {'3-': False, 'HT/dM:YG': -inf, '+4': (37.21096859010305+65.27733758792996j), '%;I2+{?MRa': None})]
+

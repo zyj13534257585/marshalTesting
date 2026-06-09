@@ -1,0 +1,166 @@
+{
+  "test_info": {
+    "current_python_version": "3.12.4",
+    "baseline_python_version": "3.13.13",
+    "test_time": "2026-06-08 16:21:24",
+    "total_inconsistent_count": 26
+  },
+  "inconsistent_cases": [
+    {
+      "test_case_name": "Fuzz_8",
+      "baseline_hash_py313": "b3a209524d8159c426bef6e5cb133eda8f974f4092ef99df2ffb48d41b01e39f",
+      "current_hash": "de3ba1b15f45c79538af279dac39df745cf3822db7eb96a20f842a0c9733ae28",
+      "object_repr": "{False, nan, (-27.033564205983154-25.96380657662347j), b'$W}S\\xec\\xc2\\x8ap\\xa6\\x1cu\\x10\\xa1\\xcd\\x89!l\\xa1l\\xff'}"
+    },
+    {
+      "test_case_name": "Fuzz_18",
+      "baseline_hash_py313": "cb4722ddc5bdfabf3797d86590d9a2d8437243c3c28ee175982f84e0963a34d6",
+      "current_hash": "3affdd361c04ea3ef56e3ec2694ca67bf8037459b538a5b3b393d76cd7143296",
+      "object_repr": "{False, (15.996956239136395+30.941124740614327j), b'\\x9a\\xcf\\x00\\x9b\\x92', inf, nan}"
+    },
+    {
+      "test_case_name": "Fuzz_19",
+      "baseline_hash_py313": "9214daaa4accaed55eb5f3385b84966d7f0ad8ab7ea096be226ebe0060abff96",
+      "current_hash": "1286430d549b49c386bdbf50daf3172ba904a15edc8979e339c6c33d1e550209",
+      "object_repr": "{'Da': frozenset({None, (90.39993249049505-53.02628029466321j)}), '<92#%': -89167.66323982168, '8{yQ_S?2sx': (72.08811308450427+77.0930411019732j), '<6yb[&g': (-75.72828016212313-73.33217888859423j), 'ucglHXn|': {False, True, b\"\\xe6\\x84~\\x8d\\xf8z\\x8c\\xe1'\\x92x\\x8b\\xab\\xa3)\", inf}}"
+    },
+    {
+      "test_case_name": "Fuzz_21",
+      "baseline_hash_py313": "6fc8b85318a9aed90bab134c68e4e51352933dbaadb5a5234a826dcba6f04eb2",
+      "current_hash": "1757f1635cb1d9b16d4ff07b40a755a221acc0ac834ac00d4dff332c8d01e1fe",
+      "object_repr": "([{b'', (76.13133455156472+15.138069362016054j), 885483.3148681938, 580151}], {b'p\\xf9p\\x8b\\xdf\\xf8\\x0e\\xc7\\xac\\xcfT\\xefA\\r\\xc9\\r*', b'E\\xec]\\x19\\x85\\xc2\\xa7l\\xe8\\xa7\\xac\\xc2\\x8e', (90.24082397211234-15.68703464825225j), (-83.6187534476715-96.12334258999786j)}, ([],), {})"
+    },
+    {
+      "test_case_name": "Fuzz_23",
+      "baseline_hash_py313": "297d2b7fa52ab8cc245e629a907728974f48967288360f3e053eb73c68a1c9ad",
+      "current_hash": "5c3d1a83306f15191187e517d4b093395e3844d3103e7475bd45c8445b1762ca",
+      "object_repr": "({-inf, b'&|4\\x9a=\\x15', 117247}, b'\\x06\\xd7\\xfa6\\xdd\\xb9\\xebN\\xdeZ', (frozenset({(-50.90096618126183+86.92437572280002j), nan, (46.20524286102446-46.32089239015493j)}), inf, frozenset({'', (-51.93521277515689-4.78137784316705j), b'\\xac\\x0e\\xfd\\xa6]\\xf9l\\xb5\\x84\\xae\\x8f\\x8d', '*>|T^g'}), set()), False)"
+    },
+    {
+      "test_case_name": "Fuzz_24",
+      "baseline_hash_py313": "55d7ea36627a7200f035bbf071b3951f6681b389d486174d553d00c2a2f4a258",
+      "current_hash": "1cbfd5bfeb6116acc83508be816fdb19fdd9ce0649feb6c9d92660f132c1174f",
+      "object_repr": "({b'\\xa1=^bn\\xf7', 519564, 'VfJMyZBG@=/', 'lD,8E=N6F!zd0C%&'}, {'-!iD\\\\]XK': None, '].(S^': b'M', 'hF*': [(-16.76519571793432+19.225369082005045j), 'bPYXFkV', 192502, 'n'], ':p': b'Pz', 'f)4': nan}, False, set(), ({'e<': b'\\x88H$\\x1e', 'Glh': -79029, '[x': 467447}, ('X*l%W~Im@#+=vik', None, (34.45631686064786-46.09779480658922j), None), {'sXC7jWq^+': -inf, 'JIu-4JT': b'\\x93\\xcd\\x12\\xe8-\\xa1\\x81\\xa5;\\xce\\x00\\xec\\xd3\\x1b`', 'No_pX&:Bf': False}, set(), b'zQ\\x9f\\x07\\xd0/s:\\xec<N\\xff\\x95\\x8b\\xd4\\xf7\\"
+    },
+    {
+      "test_case_name": "Fuzz_27",
+      "baseline_hash_py313": "a7bc6891965d9fdd6900a99d904a54f1e8861eef11726f63d1f880adcdd58563",
+      "current_hash": "607147d641e09ad3c12a0015b54683d76636016ed2f4f3e040d814ee9c77a346",
+      "object_repr": "{'iQ=T': b'\\xc3\\xc5M\\xfd\\x12@\\xa93\\xe13\\xe9\\x07I\\xd1O', '\\\\A': {None, True, 520739.3859885307, (-34.28688220330875+34.871499030801914j), 'Hp{^e$o(>pwD'}, 'X5': [], \"'EMOW2\": inf, '6*n': frozenset({False, b'', -inf, (-6.949348894939703-42.47366685031224j), '=[q@'})}"
+    },
+    {
+      "test_case_name": "Fuzz_30",
+      "baseline_hash_py313": "c1e0a1c396cf78c4f828555f20b955cf9d65bb149bcb79d6d365fd2bc1d3d02c",
+      "current_hash": "35f5c86c92ee8eb60def93a35247053210400ff43136f6e7cf39dcbdc80e69fb",
+      "object_repr": "((), set(), frozenset({-720445.9749855578, 'r(q[yFs'}), (True, (b'\\xd6O\\xd42\\xfa\\xd0\\x8f\\x10\\xbdo\\xe3\\xe3x\\xb92\\xbc\\xb7', None, -inf, True, (64.83821638631429-81.66531523649583j)), b'\\n\\x19\\xaa|@i#jnw\\xa8K\\x01\\x8dJB\\x80Y8'))"
+    },
+    {
+      "test_case_name": "Fuzz_34",
+      "baseline_hash_py313": "a3d1eabfad90467b7b120b17505c35d91c52a71c2e08ec40df69afd0f562f4f8",
+      "current_hash": "f3d81ab6583373f6b7118a8143358219ad68f37bad8c7abe6d7f493ab6c86628",
+      "object_repr": "({309288, True, b'\\x9a\\xea\\x0f\\x1f\\xf5\\xcd\\xda7\\xfb\\xe3%)\\xa4K!@', b'\\xa6\\xc3\\x96\\xe8\\xdc2:n\\xdc\\xe7t\\xd3\\xad\\xe8\\xcc\\xd40\\xa0'}, (set(), None), None, (frozenset({None, ';3t]<-LgO.Ci<Vgo', 'u/TMuV|&Dl', -262545}),))"
+    },
+    {
+      "test_case_name": "Fuzz_42",
+      "baseline_hash_py313": "00b197666052dcc3c4868436825dedf3e0d9db4bd7e7385f7b9eb474b0ed12f9",
+      "current_hash": "ff1e7b4ce3a9b3771e17b4f734ff67b54b9e1e035400daefb210cb69e159200c",
+      "object_repr": "[None, frozenset({-513367.05035453266, 'zqUE.S\"I5oZx', -815179}), frozenset()]"
+    },
+    {
+      "test_case_name": "Fuzz_43",
+      "baseline_hash_py313": "66e23d92f7c50649c0c146f4941e737d6ae292a91fb38118877818e77aaba462",
+      "current_hash": "9514948a50c68194b1517a72e15ed23c799a02cf4df41279dd0851e5e51abfee",
+      "object_repr": "((b'c\\xb2\\xb3',), {'2@': 's)6p'}, frozenset({-inf, (94.19461284163205-36.772221101883964j), -62157.832947253366, b'\\x8c\\x1c\\xb4%\\x9e\\xec\\xe7\\x13\\x1d'}), (), [{'6%?zXXcbn4NODQTKvl&p', \"~%Yis8Im\\\\`3'Y-K{*\", b'!\\xa80\\xc5\\x91\\x81L\\xaa)H'}, (b'B+\\x9e\\xc0\\xa8A/\\xd8\\xb9\\t\\xb9\\x9e', True, 987404, (-2.7458158254545424-54.69139069322255j), True), (57.62403473428003+1.5379425449292512j), frozenset()])"
+    },
+    {
+      "test_case_name": "Fuzz_45",
+      "baseline_hash_py313": "b0c29eae8a53f6bd7c5294ad2e3d16ff3b32cb879bee104b97280292024154ec",
+      "current_hash": "ae096b85ed6c199d722481b69ce2362b70501044f58f9950be985a91385ffbfb",
+      "object_repr": "{(-25.75757867911348+86.85871079949993j), b'wz\\x9e\\xf0c\\xbc\\xe1\\xec\\x90\\xc3\\xd6RfF', (-49.999357682198585+28.235807240889443j), 577878}"
+    },
+    {
+      "test_case_name": "Fuzz_51",
+      "baseline_hash_py313": "7f0042fef69c764547c82e7cc4a7eb5f08301ad927721e8f76d4f09c71d75b02",
+      "current_hash": "9bb35e5646b0e08a8c8b4c66d1b1d8cff569f6d782c0a5eceafdad805de5a152",
+      "object_repr": "frozenset({None, nan, b'\\xbf\\x81\\x08\\xb6\"\\xb0{5\\xaaD\\x16\\xb4', (97.66629711929349+10.830390483639093j)})"
+    },
+    {
+      "test_case_name": "Fuzz_52",
+      "baseline_hash_py313": "ea4af438d82e309adf6237c9614d45a77c50cf3668b19adc5db5bb0ce8668661",
+      "current_hash": "b90f27b4f535fc0356ac432e0a56c4367cf327db57a5e28373600a8ebd1aab0c",
+      "object_repr": "{'y]p71({Z': True, '%HGa': frozenset({(56.168313395685004+73.15965541561152j), (29.380099760150046-42.77782088969027j), -923201}), 'B/OWSX': {False, b'\\xbc\\x88*\\xd9(\\xdc\\\\\\x96\\xa44(\\xa7\\x97\\x9c\\xe4'}, '{V5xXLY%}M': {b'&', b'\\xcf\\xbaQ\\x0fI\\xe0\\x11@\"x\\xbb\\xb9\\xc4\\x10N\\xe6\\xbd\\xbe\\xe3\\''}, '1cNRHsC?.#': {-476446.6468250084, 'x^9/1)Y6{', 476474, inf}}"
+    },
+    {
+      "test_case_name": "Fuzz_59",
+      "baseline_hash_py313": "04562d527ff15d3ddbf8ff2ae08fbbddbdfc68763ef400a4d7ce24b27985a2a5",
+      "current_hash": "ee186515744def2ce9edc1d8a2fa6a3a307828c3ff3f083c1352d5414af302a3",
+      "object_repr": "[frozenset({None, b'Y', (-20.601085144340075-0.92322053564844j), b'\\x13\\x04\\x986\\xab\\x91\\xe8\\xfcD', inf}), {True, -659225}, (b'\\x97bY\\xcf\\xda\\xa7,\\xcd0^', {True, -195587}, (-46.60113460714397-34.074939337453486j), frozenset(), 452841), b'\\xee\\x9dQ', frozenset({(7.503537538640174+32.81888786793277j), '<1]3ZmO', -229205, (-37.80441032306794-76.51685083104474j), nan})]"
+    },
+    {
+      "test_case_name": "Fuzz_70",
+      "baseline_hash_py313": "da0226ad72c308f751dcc98c7b3d9b23fa359998f023069e9be0d47b21cc4113",
+      "current_hash": "23251dbaa38214bbb2e18e46ef7f93f0bb129694d2115e4a8e0c4920d27d713b",
+      "object_repr": "{\"['g\": {356240, -inf, None, 'Q?@:'}, 'd|': [frozenset({None, False, ';]:JF!;8~/]?ymz:R', (-85.44313432549941+60.93012357010903j)}), {None, 160378, 'MGANa_[,|\\\\H:OHT%h<~2'}]}"
+    },
+    {
+      "test_case_name": "Fuzz_71",
+      "baseline_hash_py313": "4402354fd0ae0311ed4d5aa0376c9ff0d720ba33024c5ba79bfedc95660ab227",
+      "current_hash": "3c48b0bc30eaee67210ca4513601940d8ecfb8abf495c46e65e7c45af4254a2f",
+      "object_repr": "frozenset({-517616, -inf, True, inf})"
+    },
+    {
+      "test_case_name": "Fuzz_76",
+      "baseline_hash_py313": "866eb9e4f26ea6b5ba8c93af9006a13117b717e62bcdc945e03e49aa1a865eeb",
+      "current_hash": "e911473b1dfed8dee43b1a84e245caf0324b6166d24e6cd0f5db7a3f813b211a",
+      "object_repr": "frozenset({b'\\x08\\x03\\xd2\\x06\\x08\\x8c\\x92\\x08\\xdc[61L{b', (29.978890358784554-93.66309926882312j), '@MBR*OSZh?y<Fw*s'})"
+    },
+    {
+      "test_case_name": "Fuzz_77",
+      "baseline_hash_py313": "0cc7d4ef8efa250e754167a7c7daa529d908829948639e690af06f17ca03c5c3",
+      "current_hash": "6ea68e36a9bb5b604f1e1ff20af63a2fc990991af7f359bbafba39ead252f1f3",
+      "object_repr": "{273496.1511112775, False, '=', b'*\\xff\\xde\\xa90'}"
+    },
+    {
+      "test_case_name": "Fuzz_79",
+      "baseline_hash_py313": "f533622f080b71c05e5552d01e907bba3824d719c4a28553c7b6d82040fa4b35",
+      "current_hash": "c27faa0b2e39c805f8dcd5537aa4c3afda1daeca531d335f489149a9b1a3bac7",
+      "object_repr": "([()], frozenset({(64.13814829693942+64.18047755702736j)}), (frozenset({False, 'W7wjtP*oE?{)', b'\\xa9\\xc4G(\\xb1\\x1b2\\xdfv&\\xae\\xcb\\xa7\\x0f\\x8b\\xe6\\xfb'}),), False)"
+    },
+    {
+      "test_case_name": "Fuzz_80",
+      "baseline_hash_py313": "83b128496d437b177e3da1acd24477b2f083f2769defc79485ff2b55347d60d6",
+      "current_hash": "058c7dd57a9e7f88e2d0497469a8749633c8b9f9f01da524003cd55728319e27",
+      "object_repr": "{'HN-+ GX': (), '+7W': frozenset({None, 162283, -947476.1919734057, 'IQ!ETQ*|g?ib5wP51BF'}), '_2(5W': 15506, 'N@': {-inf, 'JXJWsl1FImx9', 'Z-1F R', 764991}, 'RHE': {'ke7wf#', (57.17330633541215-26.9968925209525j), b'k\\xe0\\x95#\\xd1\\xffG\\x9b{\\x81N\\xd8\\xc1%', (-51.51514064388538-24.788939535170584j)}}"
+    },
+    {
+      "test_case_name": "Fuzz_85",
+      "baseline_hash_py313": "3e7d381d0ec721f5694f0be579f50b7354883f8cf68187f60f6e377fee68bde8",
+      "current_hash": "b379a436cf641c28e8cab9009f8c5a3ac5a6c5939c832530fcf0dd2e3f6261f7",
+      "object_repr": "(b'\\xa3\"\\x99\\x16:\\x0b\\xaf7T|YQ\\xa9\\xda', {'7qt': ['YkVQ z', True, 577740, b'4_', -316361], 'Z.Au': frozenset({None, nan, 251938, 'LMZ', 'vzFnk'}), 'H/>': {'aQU': 'iQV7', 'qdxr6g5^': -705777}}, (-9.79980585066977-89.27774747383263j))"
+    },
+    {
+      "test_case_name": "Fuzz_86",
+      "baseline_hash_py313": "7efb8e5e6f6e0422772bacf3dce06917dd76707210624e2d07739228c13674c8",
+      "current_hash": "d5b55e59d5b0e79691e8d3255ecf8ffe23ca01b22592e2f27f9e9d8bd1864f61",
+      "object_repr": "[(-23.211164826409387+12.316415467020889j), {nan, b'\\xfaU*\\x0fp\\x95\\x10\\x8cs\\x93V\\xea\\xfd9', 'BeN', '|', inf}, [{'Y': -268982, 'X/': (62.37778251908131-58.02436648204519j)}, (\"V5n1::'hLdCld5IzEEiB\", (2.8829976700071995+80.03105771437185j), (-80.95496723713146+92.55439899875839j), (-17.680755378650574-88.1428226940539j), 818330), {'{I?': (68.71113132869385-21.459849939556833j)}, b'\\xd4\\xc0\\xe7&/\\xce\\x8e\\xbc', {'', (54.82705808753866+46.544805307897406j)}]]"
+    },
+    {
+      "test_case_name": "Fuzz_87",
+      "baseline_hash_py313": "c7f8b5f0e1bb0ff383b1c117580445c8b5a2c150e968a972d3377af5f68228cf",
+      "current_hash": "05befd93bf587f0e491f6318a3789386568ee5812fd76831849a5b65608c3ff9",
+      "object_repr": "{None, 'Kw&%,pZ\"/4XZ V9', b' \\xcbo\\xdbl\\xfd\\x89\\xa5\\x91\\xacB', b'\\x80*\\xbeT\\x1a\\xca\\x9cw\\xdb.0', b'\\x9aQ\\x8c/'}"
+    },
+    {
+      "test_case_name": "Fuzz_99",
+      "baseline_hash_py313": "e62b419cfa0de434dc9d604fb98f30e64bce19f729417aac9f049ed6b9532051",
+      "current_hash": "172f07d9f627b0482c54087a07fd15da2ea91c8658aba1921f9615ea236797d4",
+      "object_repr": "frozenset({'3 T#=eL', (55.17719119105101+46.49266734785331j), b''})"
+    },
+    {
+      "test_case_name": "Fuzz_100",
+      "baseline_hash_py313": "4851ec17b0e7f2047641ab189e3fe7642eec5809a6461ec460087ea231ef6bbb",
+      "current_hash": "dee8e025d41fb63a4d364189553b50cd10bc28d2442de83c3075259f6c1bc9a2",
+      "object_repr": "[(), False, [[]], frozenset({b'\\xea+0D\\xc9&\\x1f\\xdeBy\\x95', 942050, 784495}), ({}, {'3-': False, 'HT/dM:YG': -inf, '+4': (37.21096859010305+65.27733758792996j), '%;I2+{?MRa': None})]"
+    }
+  ]
+}
